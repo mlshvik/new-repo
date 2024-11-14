@@ -1,0 +1,38 @@
+/* Адаптований дизайн для відповідності стилю product-card */
+.cardHome {
+    max-width: 280px; /* Відповідає max-width у .product-card */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-style: hidden;
+}
+
+.cardImgTop {
+    max-height: 380px; /* Відповідає max-height у .book-image */
+    width: auto;
+    object-fit: cover;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 1.5rem; /* Можна зменшити, якщо потрібно */
+    min-height: 50px; /* Відповідає min-height у .book-title */
+}
+
+.cardText {
+    font-size: 0.9rem; /* Відповідає .book-author */
+    color: #555;
+    min-height: 30px; /* Відповідає min-height у .book-author */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cardPrice {
+    font-size: 1.1rem; /* Відповідає .book-price */
+    font-weight: 600;
+    margin-top: auto; /* Щоб ціна завжди була внизу */
+}

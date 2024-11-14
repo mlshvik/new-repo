@@ -1,0 +1,37 @@
+.product-card {
+    max-width: 280px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book-image {
+    max-height: 380px; /* Задаємо однакову висоту для зображень */
+    width: auto;
+    object-fit: cover;
+}
+
+.book-title {
+    font-weight: bold;
+    min-height: 50px; /* Однакова висота для назв */
+}
+
+.book-author {
+    font-size: 0.9rem;
+    color: #555;
+    min-height: 30px; /* Однакова висота для описів */
+}
+
+.book-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: auto;
+}
+
+.product-card .card-body {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
